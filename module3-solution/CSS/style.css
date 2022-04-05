@@ -1,0 +1,71 @@
+
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3 {
+		float: left;
+	}
+
+	.col-lg-2 {
+		width: 33.33%;
+	}
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0
+	padding: 0;
+}
+
+.row {
+	width: 100%;
+}
+
+h1 {
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: #0b3960;
+	text-align: center;
+}
+
+#title1 {
+	font-family: "Lucida Console", "Courier New", monospace;
+	border: 1px solid #000000;
+	color: #0b3960;
+	background-color: #dddddd;
+	text-align: center;
+	width: 150px;
+	position: absolute; 
+	top: 60px;
+	left: 344px;
+}
+
+#title2 {
+	font-family: "Lucida Console", "Courier New", monospace;
+	border: 1px solid #000000;
+	color: #0b3960;
+	background-color: #dddddd;
+	text-align: center;
+	width: 150px;	
+	position: absolute;
+	top: 60px;
+	left: 828px;
+}
+
+#title3 {
+	font-family: "Lucida Console", "Courier New", monospace;
+	border: 1px solid #000000;
+	color: #0b3960;
+	background-color: #dddddd;
+	text-align: center;
+	width: 150px;
+	position: absolute;
+	top: 60px;
+	left: 1312px;
+}
+
+p {
+	font-family: "Lucida Console", "Courier New", monospace;
+	border: 1px solid #000000;
+	color: #0b3960;
+	background-color: #9eb2c4;
+	padding: 40px 10px 5px 20px;
+	margin: auto;
+}
